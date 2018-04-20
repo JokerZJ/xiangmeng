@@ -1,0 +1,67 @@
+*{margin:0;padding: 0;}
+img, object, embed, video {max-width: 100%;}
+a{ text-decoration:none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;outline:none；}
+
+#index{margin-top: 52px;}
+body{font-family:"微软雅黑";width:100%;height:auto;background: rgb(241,241,241);}
+
+.top{padding:10px 2%;background: white;position: fixed;top: 0;width:100%;opacity: 0.9;z-index:999990;}
+.top .sear{width: 75%;height: 30px;padding:0px 10px;border-radius: 15px;background:rgb(241,241,241);border:none;}
+.top .btn{width: 18%;height: 30px;float: right;border: none;background: white;}
+
+.pulldown{z-index:100;width:100%;height: auto;position: absolute;background: white;margin: 11px -10px;display: none;}
+.pullCon{position: relative;}
+.pullCon li{list-style: none;margin: 10px 15px;}
+
+.itemPrize{float: right;}
+.pullCon span{width: 50%;}
+
+.w-top{width:100%;margin:10px auto;text-align: center;}
+.w-top p{font-size: 24px;font-weight: bold;height: 30px;line-height: 30px;}
+.w-top span{font-size: 12px;color: #999;}
+.swiper-container {width: 100%;padding-bottom: 30px;background: white;margin-bottom: 5px;}
+.swiper-slide {background-repeat: no-repeat;background-size: 100% 100%;width: 70%;position: relative;text-align: center;}
+.swiper-slide img{box-shadow: 5px 5px 5px #ccc;}
+.container{width: 100%;height:auto;background: white;margin-bottom:55px;}
+.container .con{width:46%;height:auto;background: white;float: left;padding:0 2%;}
+.container .con .box{width: 100%;}
+.container h3{padding: 15px;}
+.con-b{margin-bottom: 20px;}
+.con-b p{font-weight: bold;padding: 10px 0;font-size: 17px;}
+.con-b span{font-size: 12px;color:#999;padding:0;}
+.con-img img{width: 100%;}
+.con-img:hover{opacity: 0.7;}
+
+.con-nav{width: 100%;height:8%;position:relative;margin-top: 20px;}
+.navItem{float: left;width: 25%;height: 100%;position: relative;text-align: center;}
+.navItem img{width:40%;}
+.navItem a{color: #999;}
+.navItem p{width: 100%;font-size: 14px;}
+
+.num{width: 80%;margin: 0 auto;margin-top: 6px;}
+.num .num-name{font-weight: bold;}
+.num .num-xuhao{width: 60%;overflow: hidden;}
+.title{width: 80%;margin: 0 auto;margin-top: 6px;}
+.title .titlt-l{font-weight: bold;width: 30%;float: left;}
+.title .titlt-r{float: left;width: 68%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.detail{width: 70%;margin: 0 auto;margin-top: 60px;}
+.detail img{width: 100%;}
+.toupiao{width: 70%;margin: 0 auto;margin-top: 6px;}
+.a {text-align: center;font-size: 14px;color: #464646;}
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet {background: #fff;width: 10px;height: 10px;margin-right: 6px;}
+.paihang{position: fixed;bottom: 6px;color: #fff;width: 100%;margin: 0 auto;text-align: center;}
+.paihang .paihang-r{margin-left: 6px;}  
+.ok{width: 50%;position: absolute;top: 60px;left: 20px;}
+.ok img{width: 100%;}
+.middle{text-align: center;}
+
+
+
+.bottom {font-size: 16px;position: fixed;bottom: 0;right: 0;height:8%;width: 100%;background: white;z-index: 999999;text-align: center;box-shadow: 5px 2px 6px #ccc;}
+.bottom div {color: #fff;width: 25%;height:100%;line-height:100%;font-size: 19px;text-align: center;float: left;display: table;}
+.bottom div a{width:100%;color:rgb(202,202,202);margin-top: 5px;display: table-cell;vertical-align: middle;}
+.bottom div a.selected{font-size: 15px;}
+.bottom div a img{width: 30%;height:24px;display: block;margin:0 auto;}
+.bottom div a.selected.selected{color:rgb(0,0,0); }
+.bottom p{line-height: 20px;font-size: 5px;}
